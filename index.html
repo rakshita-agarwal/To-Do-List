@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Adding Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Charis+SIL:ital@1&family=Dancing+Script&family=Fira+Sans&family=Merriweather+Sans:ital@1&family=Montserrat&family=Philosopher:ital@1&family=Roboto:ital@1&family=Sacramento&family=Ubuntu:ital@1&display=swap"
+        rel="stylesheet">
+
+    <!-- Adding CSS -->
+    <link href="main.css" rel="stylesheet">
+
+    <title>Task List</title>
+</head>
+
+<body>
+    <header>
+        <h1>Task List</h1>
+        <form id="new-task-form">
+            <input 
+                type="text" 
+                placeholder="What do you have planned?" 
+                id="new-task-input"
+                name="new-task-input"
+            />
+            <input 
+                type="submit" 
+                value="Add Task" 
+                id="new-task-submit"
+            />
+        </form>
+    </header>
+
+    <main>
+        <section class="task-list">
+            <h2>Tasks</h2>
+
+            <div id="tasks">
+                <!-- <div class="task">
+                    <div class="content">
+                        <input type="text" class="text" value="My shiny task" readonly />
+                    </div>
+                    <div class="actions">
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+    </main>
+
+    <script src="main.js" type="text/javascript"></script>
+</body>
+
+</html>
